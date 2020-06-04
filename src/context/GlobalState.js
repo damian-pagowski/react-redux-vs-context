@@ -55,8 +55,6 @@ export default class GlobalState extends Component {
   };
 
   render() {
-
-    console.log(this.props.children)
     return (
       <ShopContext.Provider
         value={{
